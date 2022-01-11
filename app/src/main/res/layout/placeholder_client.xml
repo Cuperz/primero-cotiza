@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/activity_padding"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="24dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="50dp"
+        android:layout_height="@dimen/placeholder_image"
+        android:layout_marginRight="@dimen/activity_padding"
+        android:src="@drawable/ic_shimmer_profile"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/name"
+        android:layout_width="110dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/thumbnail"
+        app:cardBackgroundColor="@color/placeholder_bg"
+        app:cardCornerRadius="8dp"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/subname"
+        android:layout_width="140dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/name"
+        app:cardCornerRadius="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/thumbnail"
+        app:cardBackgroundColor="@color/placeholder_bg"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/service"
+        android:layout_width="100dp"
+        android:layout_height="8dp"
+        android:layout_below="@id/subname"
+        app:cardCornerRadius="8dp"
+        android:layout_toRightOf="@id/thumbnail"
+        app:cardBackgroundColor="@color/placeholder_bg"/>
+
+
+
+</RelativeLayout>

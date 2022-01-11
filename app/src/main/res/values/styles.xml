@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightGray</item>
+        <item name="colorPrimaryDark">@color/lightGray</item>
+        <item name="colorAccent">@color/basePurple</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <!--Disable MultiTouch-->
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="transparentText">
+        <item name="android:textColor">#00000000</item>
+        <item name="android:textSize">0sp</item>
+    </style>
+
+
+</resources>

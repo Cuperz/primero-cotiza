@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">primero-cotiza</string>
+    <string name="login_error_msg">"Ingrese email y contraseña válida"</string>
+    <string name="login_input_password">"Contraseña"</string>
+    <string name="login_input_email">"Correo electrónico"</string>
+    <string name="login_forgot_password">"¿Olvidaste tu contraseña?"</string>
+    <string name="login_attender">"ATTENDER"</string>
+    <string name="login_login">"Ingresar"</string>
+    <string name="login_recover">"RECUPERAR CONTRASEÑA"</string>
+    <string name="login_app_name">"primerocotiza"</string>
+    <string name="login_error_message">"Error: "</string>
+    <string name="login_failure_message">"Failure: "</string>
+    <string name="login_invalid_credentials">"Credenciales inválidas"</string>
+    <string name="sesion_expired">"Sesión expirada"</string>
+    <string name="validating">"Validando"</string>
+
+    <string name="server_error">"Error al conectar con el servidor"</string>
+    <string name="menu_clients">"Clientes"</string>
+    <string name="menu_companies">"Servicios"</string>
+    <string name="menu_profile">"Perfil"</string>
+
+    <string name="profile_title">"Perfil"</string>
+    <string name="profile_close_sesion">"CERRAR SESIÓN"</string>
+    <string name="profile_default_user">"Usuario por defecto"</string>
+    <string name="profile_logout_error">"Error al cerrar sesión, compruebe su conexion a internet e intente nuevamente"</string>
+
+    <string name="companies_title">"Servicios"</string>
+    <string name="companies_subtitle">"Lista de servicios inscritos, si deseas eliminar uno, comunicate con tu encargado!"</string>
+    <string name="companies_switch_subtitle">"Al desactivar, todos los servicios se apagan y no podrás recibir leads"</string>
+    <string name="companies_switch_title">"Deshabilitar Usuario"</string>
+    <string name="company_enabled">"Habilitado correctamente!"</string>
+    <string name="company_enabled_error">"Error al habilitar empresa"</string>
+    <string name="company_disabled">"Usuario deshabilitado"</string>
+    <string name="company_disabled_error">"Error al deshabilitar empresa"</string>
+    <string name="conection_error">"Error de conexión"</string>
+
+    <string name="clients_title">"Clientes"</string>
+    <string name="clients_subtitle">"Lista de usuarios atendidos, haz click en la tarjeta para desplegar más información"</string>
+
+    <string name="accept_lead">"Presiona para aceptar"</string>
+    <string name="new_lead">"¡Tienes un nuevo lead!"</string>
+    <string name="reject_lead">"rechazar Lead"</string>
+    <string name="lost_lead">"¡Perdiste el lead!"</string>
+    <string name="lost_lead_reminder">"Recuerda que tienes 1 minuto para comunicarte con el cliente"</string>
+    <string name="lost_lead_button">"Entendido"</string>
+    <string name="lead_call">"Llamar"</string>
+    <string name="lead_error">"Error al cargar lead"</string>
+    <string name="send_whatsapp">"Enviar Whatsapp"</string>
+    <string name="send_email">"Enviar Email"</string>
+
+    <string name="timer_finish">"0:00"</string>
+    <string name="timer_one">"0:0"</string>
+    <string name="timer_two">"0:"</string>
+
+    <string name="lead_remaining_1">"Quedan "</string>
+    <string name="lead_remaining_2">"s para llamar"</string>
+    <string name="lead_remaining_full">"Quedan 0s para llamar"</string>
+    <string name="lead_invalid_number">"Número de cliente inválido"</string>
+    <string name="lead_accepted_invalid_number">"Lead aceptado, número de cliente inválido"</string>
+    <string name="lead_accepted">"Lead aceptado exitosamente</string>
+
+</resources>

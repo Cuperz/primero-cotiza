@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "161950408535",
+    "firebase_url": "https://primerocotiza-56572.firebaseio.com",
+    "project_id": "primerocotiza-56572",
+    "storage_bucket": "primerocotiza-56572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161950408535:android:511ddb4edec84fc3c16812",
+        "android_client_info": {
+          "package_name": "com.jumpitt.primero_cotiza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161950408535-ctdt9ei6sjpshqt0pop7338tbeaoc1sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1wvjcAu35qWvbVVpUv98iRKz61798vmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161950408535-ctdt9ei6sjpshqt0pop7338tbeaoc1sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
